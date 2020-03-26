@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="7" time="199.61503">
+    <testcase classname="http://examples.codecharge.com/TaskManager/Default.php" name="Data Driven Login to examples.codecharge.com/TaskManager/Default.php" time="27.060233">
+        <system-out>
+            <![CDATA[Given launch the browser....................................................passed
+When open the application...................................................passed
+Then enter username as "admin" & password "admin" and click on login........passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="http://examples.codecharge.com/TaskManager/Default.php" name="Data Driven Login to examples.codecharge.com/TaskManager/Default.php 2" time="15.420387">
+        <system-out>
+            <![CDATA[Given launch the browser....................................................passed
+When open the application...................................................passed
+Then enter username as "aadmin" & password "aadmin" and click on login......passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="http://examples.codecharge.com/TaskManager/Default.php" name="Data Driven Login to examples.codecharge.com/TaskManager/Default.php 3" time="13.765995">
+        <system-out>
+            <![CDATA[Given launch the browser....................................................passed
+When open the application...................................................passed
+Then enter username as "badmin" & password "badmin" and click on login......passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="http://examples.codecharge.com/TaskManager/Default.php" name="add Task in examples.codecharge.com/TaskManager/Default.php" time="53.327882">
+        <system-out>
+            <![CDATA[Given open the Application..................................................passed
+When click on Administration2...............................................passed
+When login with valid credentials...........................................passed
+When click on add task......................................................passed
+When enter all fields.......................................................passed
+When select Start Date......................................................passed
+When select End Date........................................................passed
+When click on Add button....................................................passed
+Then assert if added task is shown in task list table.......................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="http://examples.codecharge.com/TaskManager/Default.php" name="Search Task in Type" time="28.141029">
+        <system-out>
+            <![CDATA[Given open the application7.................................................passed
+When select task in Type....................................................passed
+When click on Search........................................................passed
+Then Assert if previously added task is in the table or not.................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="http://examples.codecharge.com/TaskManager/Default.php" name="Sort the Task Table according to finish date" time="24.244985">
+        <system-out>
+            <![CDATA[Given view the website......................................................passed
+When click on finish date...................................................passed
+Then Assert if finish date is as same as previously added task finish date..passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="http://examples.codecharge.com/TaskManager/Default.php" name="screenshot the type Type from the page" time="37.654519">
+        <system-out>
+            <![CDATA[Given Open the web application..............................................passed
+When select task in Type and search.........................................passed
+When take screenshot the Displayed tasks....................................passed
+Then assert the tasks.......................................................passed
+]]>
+        </system-out>
+    </testcase>
+</testsuite>
